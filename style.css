@@ -1,9 +1,11 @@
 body {
     width: 100%;
     max-width: 850px;
-    height: auto;
     min-height: 450px;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* Hero image behind NASA title */
 
 main div.hero-image {
     background-image: url("images/space-hero.jpg");
@@ -11,35 +13,83 @@ main div.hero-image {
     background-size: cover;
 }
 
+/* Centering */
+
 div {
-    margin: auto;
+    margin: 0px auto;
 }
+
+/* Page title */
 
 h1.title {
     color: white;
     font-size: 6em;
+    font-weight: 900;
     text-align: center;
     margin: 0px;
     padding: 160px 0px;
 }
 
+/* This is the info box in grey on the second half of the page */
+
 section {
     display: flex;
-    background-color: #E6E6E6;
+    background-color: rgb(211, 211, 211);
+    margin-top: 25px;
+    padding: 20px;
+    height: 324px;
 }
+
+h2 {
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+div>p {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+/* Fake input boxes */
 
 div.name-box {
     background-color: white;
     width: auto;
-    height: 12px;
+    height: 30px;
+    margin-bottom: 7px;
 }
 
 div.message-box {
     background-color: white;
     width: auto;
-    height: 30px;
+    height: 80px;
+    margin-bottom: 12px;
 }
 
-.triple {
-    
+/* spacing and positioning three columns */
+
+.triple1 {
+    padding-left: 10px;
+    margin-right: 20px;
+    width: 270px;
+}
+
+.triple2 {
+    margin-right: 20px;
+    width: 270px;
+}
+
+.triple3 {
+    padding-right: 10px;
+    width: 270px;
+}
+
+button {
+    height: 35px;
+    width: 80px;
+    background-color: #4D4D4D;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: .1em;
 }
