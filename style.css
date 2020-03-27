@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    min-height: 450px;
+}
+
+main div.hero-image {
+    background-image: url("images/space-hero.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+div {
+    margin: auto;
+}
+
+h1.title {
+    color: white;
+    font-size: 6em;
+    text-align: center;
+    margin: 0px;
+    padding: 160px 0px;
+}
+
+section {
+    display: flex;
+    background-color: #E6E6E6;
+}
+
+div.name-box {
+    background-color: white;
+    width: auto;
+    height: 12px;
+}
+
+div.message-box {
+    background-color: white;
+    width: auto;
+    height: 30px;
+}
+
+.triple {
+    
+}
